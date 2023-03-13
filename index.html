@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/7feff4d203.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Portfolio</title>
   </head>
   <body>
@@ -13,11 +17,11 @@
         <nav>
           <img src="images/logo.png" class="logo" />
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Hobbies</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
         <div class="headertext">
@@ -36,10 +40,13 @@
           <div class="aboutcol2">
             <h1 class="title">About Me</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-              quod pariatur odit explicabo similique. Culpa eligendi eum atque!
-              Perferendis exercitationem unde rem et aut ipsum eum quas culpa
-              voluptates eius.
+              Hello! I am Juan Carlos Murillo. Currently living in Damliag
+              Bukidnon, age 20, born in 2002 of August 5, an aspirant to become
+              a servant to my fellow humans, a lawyer. Studying in Univerosty of
+              Science and Technology of Southern Philippines, 2nd Year, in the
+              course of Information Technology. If ever you want a helping hand
+              in coding, lets watch together a youtube video! I am still
+              learning and trying to improve so checking my profile!
             </p>
             <div class="tabtitles">
               <p class="tab-links active-link" onclick="opentab('skills')">
@@ -52,7 +59,7 @@
             </div>
             <div class="tab-skills active-tab" id="skills">
               <ul>
-                <li><span>UI</span><br />HTML/CSS</li>
+                <li><span>UI/UX</span><br />HTML/CSS</li>
                 <li><span>BackEnd</span><br />MySQL</li>
                 <li><span>Language</span><br />Python</li>
               </ul>
@@ -81,28 +88,49 @@
         <h1 class="title">My Services</h1>
         <div class="services-list">
           <div>
+            <i class="fa-solid fa-globe"></i>
             <h2>Web Design</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur iste tempora temporibus voluptatum vel quisquam.
+              plan, create and code internet sites and web pages, many of which
+              combine text with sounds, pictures, graphics and video clips. A
+              web designer is responsible for creating the design and layout of
+              a website or web pages.
             </p>
-            <a href="#">Learn more</a>
+            <a
+              href="https://www.indeed.com/career-advice/finding-a-job/what-is-web-designing#:~:text=Web%20design%20is%20the%20creation,content%20on%20a%20web%20page."
+              target="_blank"
+              >Learn more</a
+            >
           </div>
           <div>
-            <h2>UI Design</h2>
+            <i class="fa-solid fa-globe"></i>
+            <h2>UI/UX Design</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur iste tempora temporibus voluptatum vel quisquam.
+              create the user interface for an app, website, or other
+              interactive media. Their work includes collaborating with product
+              managers and engineers to gather requirements from users before
+              designing ideas that can be communicated using storyboards.
             </p>
-            <a href="#">Learn more</a>
+            <a
+              href="https://www.coursera.org/articles/ui-vs-ux-design"
+              target="_blank"
+              >Learn more</a
+            >
           </div>
           <div>
+            <i class="fa-solid fa-code"></i>
             <h2>Programming</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur iste tempora temporibus voluptatum vel quisquam.
+              write, modify, and test code and scripts that allow computer
+              software and applications to function properly. They turn the
+              designs created by software developers and engineers into
+              instructions that a computer can follow.
             </p>
-            <a href="#">Learn more</a>
+            <a
+              href="https://devmountain.com/blog/a-list-of-programming-languages-every-programmer-should-know-or-at-least-know-about/"
+              target="_blank"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -117,8 +145,10 @@
             <div class="layer">
               <h3>Dota 2</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                harum sint quia nemo atque aliquam iste recusandae,
+                Since Grade 4, I'd been playing this game for a very long time.
+                This became a part of my lifestlye and now a way to release any
+                stress. As such, this became an important aspect to contribute
+                to my daily life,
               </p>
             </div>
           </div>
@@ -127,8 +157,10 @@
             <div class="layer">
               <h3>Basketball</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                harum sint quia nemo atque aliquam iste recusandae,
+                Many of any other sports I;ve encountered, basketball had
+                strucked my heart to play on the court. With a much easier
+                excerise within myself. I will continue to improve myself and be
+                better at it,
               </p>
             </div>
           </div>
@@ -137,10 +169,59 @@
             <div class="layer">
               <h3>Singing</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                harum sint quia nemo atque aliquam iste recusandae,
+                Even if my voice is not pleasant, i still sing to enjoy music.
+                Even try to compose songs that helps me release the stress i'd
+                been feeling,
               </p>
             </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!--------CONTACT----->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="title">Contact Me!</h1>
+            <p>
+              <i class="fa-sharp fa-solid fa-paper-plane"></i
+              >murillojuancarlos499@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone-volume"></i>09550470385</p>
+            <div class="social-icons">
+              <a
+                href="https://web.facebook.com/juancarlos.murillo.9638"
+                target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="Submit" class="btn btn2">Submit</button>
+            </form>
           </div>
         </div>
       </div>
