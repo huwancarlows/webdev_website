@@ -9,6 +9,7 @@
       src="https://kit.fontawesome.com/7feff4d203.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <title>Portfolio</title>
   </head>
   <body>
@@ -42,11 +43,11 @@
             <p>
               Hello! I am Juan Carlos Murillo. Currently living in Damliag
               Bukidnon, age 20, born in 2002 of August 5, an aspirant to become
-              a servant to my fellow humans, a lawyer. Studying in Univerosty of
+              a servant to my fellow people, a lawyer. Enrollee in University of
               Science and Technology of Southern Philippines, 2nd Year, in the
               course of Information Technology. If ever you want a helping hand
-              in coding, lets watch together a youtube video! I am still
-              learning and trying to improve so checking my profile!
+              in coding, lets watch a youtube video together! I am still
+              learning and trying to improve, so check my profile!
             </p>
             <div class="tabtitles">
               <p class="tab-links active-link" onclick="opentab('skills')">
@@ -176,7 +177,12 @@
             </div>
           </div>
         </div>
-        <a href="#" class="btn">See more</a>
+        <a
+          href="https://www.youtube.com/watch?v=022CdArz5oM"
+          target="_blank"
+          class="btn"
+          >See more</a
+        >
       </div>
     </div>
     <!--------CONTACT----->
@@ -196,12 +202,19 @@
                 target="_blank"
                 ><i class="fa-brands fa-facebook"></i
               ></a>
-              <a href=""><i class="fa-brands fa-twitter-square"></i></a>
-              <a href=""><i class="fa-brands fa-instagram"></i></a>
-              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://twitter.com/OtakuBeLike123" target="_blank"
+                ><i class="fa-brands fa-twitter-square"></i
+              ></a>
+              <a href="https://www.instagram.com/huwancarloows/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://github.com/huwancarlows" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
             </div>
             <a
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank"
               class="btn btn2"
               >Download CV</a
             >
@@ -240,5 +253,16 @@
         document.getElementById(tabname).classList.add("active-tab");
       }
     </script>
+    <script>
+      $(document).scroll(function () {
+        var y = $(this).scrollTop();
+        if (y > 100) {
+          $(".arrow-top").fadeIn();
+        } else {
+          $(".arrow-top").fadeOut();
+        }
+      });
+    </script>
+    <a class="arrow-top" href="">Top</a>
   </body>
 </html>
